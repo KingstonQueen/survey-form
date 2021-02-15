@@ -1,28 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+header {
+    background-color: rgba(185, 158, 158, 0.2);
+    width: 100%;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    text-align: center;
+    border-radius: 2%;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#title {
+    padding-top: 20px;
+}
+
+p {
+    text-align: center;
+}
+
 body {
     font-family: 'Poppins';
     line-height: 1.4;
-    background-color: #f2f2f2;
+    background-color: rgb(255, 255, 255);
     width: 500px;
     margin: auto;
 }
 
 form {
-    background: rgb(147, 5, 5, 0.2);
+    background: rgba(185, 158, 158, 0.2);
     padding: 2.5rem 2.5rem;
-    border-radius: 2rem;
+    border-radius: 1%;
     width: 500px;
     margin: auto;
+    text-align: left;
 }
 
 .submit-button {
     width: 100%;
     padding: 0.75rem;
-    background: red;
-    color: white;
+    background: rgba(98, 0, 255, 0.205);
+    color: black;
     border-radius: 2px;
     cursor: pointer;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: medium;
 }
 
 .input-headings {
